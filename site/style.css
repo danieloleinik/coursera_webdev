@@ -4,10 +4,15 @@
   padding: 0;
 }
 
+body {
+	background-color: #a4a4a4;
+}
+
 h1 {
 	padding-top: 15px;
 	padding-bottom: 100px;
 	text-align: center;
+	color: white;
 }
 
 div.pool {
@@ -15,22 +20,24 @@ div.pool {
 		width: 100%;
 }
 div.sensor {
-	font-size: 130%;
+	font-size: 120%;
 	width: 31.3%;
-	height: 200px;
-	border: 1px solid black;
+
+	border: 1px solid white;
 	margin: 1%;
 }
 
 .sensor_title {
-	font-size: 180%;
+	font-size: 160%;
 	text-align: center;
-	padding-bottom: 80px;
+	padding-bottom: 70px;
+	color: white;
 }
 
 .sensor_value {
 	text-align: center;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
+	color: white;
 }
 
 .Botao {
